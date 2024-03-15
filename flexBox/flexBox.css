@@ -1,0 +1,16 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+img{
+    width: 30%;
+}
+
+.menu{
+    width: 20%;
+}
+.menu ul{
+    justify-content: space-around;
+    display: flex;
+}
