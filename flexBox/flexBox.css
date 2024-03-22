@@ -1,16 +1,67 @@
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 2%;
+    color: rgb(90, 90, 90);
+}
+
 .cabecera{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.logo{
+    color: rgb(0, 195, 255);
+    display: flex;
+    justify-content: row;
+    align-items: flex-end;
+}
+
+.logo strong{
+    color: rgb(90, 90, 90);
+}
+
 img{
-    width: 30%;
+    width: 40%;
 }
 
 .menu{
-    width: 20%;
+    width: 40%;
 }
+
 .menu ul{
     justify-content: space-around;
     display: flex;
+    gap:20px;
+}
+span{
+    color: rgb(0, 195, 255);
+}
+
+.inicio h1{
+    padding-top: 5%;
+    font-size: 50px;
+}
+
+
+.inicio h2{
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+.inicio .botones{
+    display: flex;
+    padding-top: 3%;
+    gap:3%;
+}
+
+.botones button{
+    color: white;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    border-radius: 10px;
+    background-color: rgb(0, 195, 255);
 }
