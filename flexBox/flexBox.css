@@ -79,8 +79,8 @@ span{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-
 }
+
 .integracion{
     background-image: url("img/TÉCNICO SUPERIOR EN MARKETING Y PUBLICIDAD 3.png");
     background-size: cover;
@@ -89,6 +89,7 @@ span{
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
 .administracion{
     background-image: url("img/TÉCNICO SUPERIOR EN MARKETING Y PUBLICIDAD 4.png");
     background-size: cover;
@@ -97,14 +98,17 @@ span{
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 .educacion{
     background-image: url("img/TÉCNICO SUPERIOR EN MARKETING Y PUBLICIDAD 9.png");
     background-size: cover;
 }
+
 .fisico{
     background-image: url("img/TÉCNICO SUPERIOR EN MARKETING Y PUBLICIDAD 7.png");
     background-size: cover;
 }
+
 .cocina{
     background-image: url("img/TÉCNICO SUPERIOR EN MARKETING Y PUBLICIDAD 8.png");
     background-size: cover;
@@ -116,15 +120,16 @@ span{
 
 .gallery-container{
     display: grid;
-    grid-template-columns: repeat(3, 25%); 
+    grid-template-columns: repeat(3, 20%); 
     grid-template-rows: repeat(4, 250px);
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .gallery-container div{
     display: flex;
     align-items: end;
+    border-radius: 10px;
 }
 
 .gallery-container p{
