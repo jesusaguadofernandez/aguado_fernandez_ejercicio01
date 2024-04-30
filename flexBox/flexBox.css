@@ -23,19 +23,18 @@ body{
     color: rgb(90, 90, 90);
 }
 
-img{
-    width: 40%;
-}
-
-.menu{
-    width: 40%;
-}
 
 .menu ul{
     justify-content: space-around;
     display: flex;
     gap:20px;
 }
+
+.menu a:hover{
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+}
+
 span{
     color: rgb(0, 195, 255);
 }
